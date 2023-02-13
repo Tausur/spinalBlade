@@ -4,9 +4,6 @@ import Navbar from '../components/Navbar'
 
 function MyApp({ Component, pageProps }) {
   return <>
-    <div className='fixed w-screen'>
-      <Navbar />
-    </div>
     <Component {...pageProps} />
   </>
 }

@@ -10,10 +10,8 @@ const Features = ({ icon }) => {
   return (
     <section className="text-black-600 body-font px-20 py-24">
       <div className="container mx-auto">
-        <div className="flex flex-wrap -m-4" data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1500">
-          <div className="p-4 md:w-1/3 duration-200 shadow-xl hover:-translate-y-3" style={{"width":"370px"}}>
+        <div className="flex flex-wrap -m-4">
+          <div className="p-4 md:w-1/3 duration-200 shadow-xl hover:-translate-y-5" style={{"width":"370px"}}>
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={icon} alt="blog"/>
               <div className="p-6">
@@ -43,7 +41,7 @@ const Features = ({ icon }) => {
               </div>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 duration-200 hover:-translate-y-3 shadow-xl ml-5 " style={{"width":"370px"}}>
+          <div className="p-4 md:w-1/3 duration-200 hover:-translate-y-5 shadow-xl ml-5 " style={{"width":"370px"}}>
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={icon} alt="blog" />
               <div className="p-6">
@@ -73,7 +71,7 @@ const Features = ({ icon }) => {
               </div>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 duration-200 hover:-translate-y-3 shadow-xl ml-5 " style={{"width":"370px"}}>
+          <div className="p-4 md:w-1/3 duration-200 hover:-translate-y-5 shadow-xl ml-5 " style={{"width":"370px"}}>
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <img className="lg:h-48 md:h-36 w-full object-cover object-center" src={icon} alt="blog" />
               <div className="p-6">
@@ -104,7 +102,7 @@ const Features = ({ icon }) => {
             </div>
           </div>
         </div>
-        <div className='flex my-28 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl' data-aos="fade-right">
+        <div className='flex my-28 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-xl'>
           <img src="/browseCourse.jpg" alt="" className='w-2/5 rounded-3xl my-10 mx-12' />
           <div>
             <p className='text-3xl text-black font-semibold py-10'>Choice and start watching the best courses</p>
@@ -114,7 +112,7 @@ const Features = ({ icon }) => {
             </Link>
           </div>
         </div>
-        <div data-aos="fade-left">
+        <div>
           <section className="text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
               <div className="text-center mb-20">
@@ -180,7 +178,7 @@ const Features = ({ icon }) => {
             </div>
           </section>
         </div>
-        <div data-aos="fade-up-right">
+        <div>
           <p className='text-4xl font-semibold'>What students say about SpinalBlade</p>
           <div className='flex py-12'>
             <div className='w-[300px] h-[280px] bg-gradient-to-r from-violet-500 via-blue-500 to-blue-300 px-5 py-5 rounded-2xl shadow-xl cursor-default'>
